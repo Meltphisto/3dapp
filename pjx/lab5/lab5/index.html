@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1, shrink-to-fit = no">
+        
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="css/custom.css">
+        
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+        <title>Coca Cola 3D APP template</title>
+
+        <script type="text/javascript">
+            function swap(selected){
+                document.getElementById('home').style.display = 'none';
+                document.getElementById('coke').style.display = 'none';
+                document.getElementById('sprite').style.display = 'none';
+                document.getElementById('pepper').style.display = 'none';
+
+                document.getElementById(selected).style.display = 'block';
+            }
+
+            
+        </script>
+
+
+    </head>
+
+    <body>
+
+        
+            <!-- Logo and navigation bar -->
+        <nav class="navbar navbar-expand-sm navbar_coca_cola">
+            <div class="container">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                    <h1>1</h1>
+                    <h1>oca</h1>
+                    <h2>Cola</h2>
+                    <h3>Journey</h3>
+                    <p>Refreshing the world, one story at a time</p>
+                    </a>
+                </div>
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:swap('home')">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="popover" data-trigger="hover"
+                            data-placement="bottom" title="About Web 3D Applications" data-content="3D
+                            Apps is a final year and postgraduate module ...">About</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown show">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
+                            <div class="dropdown-menu show">
+                                <a class="dropdown-item" href="javascript:swap('coke')">Coca Cola</a>
+                                <a class="dropdown-item" href="javascript:swap('sprite')">Sprite</a>
+                                <a class="dropdown-item" href="javascript:swap('pepper')">Dr Pepper</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Main body-->
+        <div id="home" class="container-fluid main_contents">
+            <div class="row">
+                <div class="col-sm-12" >
+                    <div id="main_3d_image">
+                        <div id="main_text" class="col-xs-12 col-sm-4">
+                            <h2>Coca Cola Great Britain</h2>
+                            <h3>Founded by Dr John S Pemberton</h3>
+                            <p>
+                                The Coca Cola Company is the world's leading manufacturer, marketer and distributor of
+                                non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div>
+
+            <br>
+
+            <div class="row">
+                <!--Coca cola-->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <a href="javascript:swap('coke')">
+                            <img class="card-img-top img-fluid img-thumbnail" src="assets/images/coca_cola400.jpg" alt="Coca Cola">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Coca Cola</h3>
+                            <p class="card-text">It was 1886, John Pemberton, an Atlanta Pharmacist, was inspired by sample
+                                Curiosity. One afternoon, he stirred up a fragrent, Caramel-coloured liquid and, when it was 
+                                done, the mixture was combined with carbonated water and smpled by customers who all 
+                                agreed - this new drink was something special!
+                            </p>
+                            <a href="https://www.coca-cola.com/gb/en/brands/coca-cola-original-taste" class="btn btn-primary">Find out more ...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--sprite-->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <a href="javascript:swap('sprite')">
+                            <img class="card-img-top img-fluid img-thumbnail" src="assets/images/sprite400.jpg" alt="Sprite" >
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Sprite</h3>
+                            <p class="card-text">First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading
+                                lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our 
+                                no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories.
+                            </p>
+                            <a href="https://www.coca-cola.com/gb/en/brands/sprite" class="btn btn-primary">Find out more ...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dr Pepper-->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <a href="javascript:swap('pepper')">
+                            <img class="card-img-top img-fluid img-thumbnail" src="assets/images/dr_pepper400.jpg" alt="Dr pepper">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Dr pepper</h3>
+                            <p class="card-text">Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over
+                                a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on.
+                                It was created by Texas pharmacist Charies Alderton in 1885.
+                            </p>
+                            <a href="https://www.coca-cola.com/gb/en/brands/dr-pepper" class="btn btn-primary">Find out more ...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!--Coke page block element-->
+        <div id="coke" class="container-fluid main_contents" style="display: none;">
+            <p>Merge your coke.html main content here</p>
+        </div><!--End Coke page-->
+
+        <!--Sprite page block element-->
+        <div id="sprite" class="container-fluid main_contents" style="display: none;">
+            <p>Merge your sprite.html main content here</p>
+        </div><!--End Sprite page-->
+
+        <!--Pepper page block element-->
+        <div id="pepper" class="container-fluid main_contents" style="display: none;">
+            <p>Merge your pepper.html main content here</p>
+        </div><!--End Pepper page-->
+
+
+
+
+
+        <br>
+        <!--Your 3D App footer-->
+        <nav class="navbar navbar-expand-sm footer">
+            <div class="container">
+                <div class="navbar-text float-left copyright">
+                    <p><span class="align-baseline"></span>&copy 2024 Mobile Web 3D Application</p>
+                </div>
+                <div class="navbar-text social">
+                    <a href="#"><i class="fab fa-facebook-square fa-2x fa-pull-right" style="font-size: 20px; color: red;"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x" style="font-size: 20px; color: green;"></i></a>
+                    <a href="#"><i class="fab fa-google fa-2x" style="font-size: 20px; color: blue;"></i></a>
+                    <a href="#"><i class="fab fa-github-square fa-2x" style="font-size: 20px; color: yellow;"></i></a>
+                </div>
+            </div>
+        </nav>
+        
+
+        <!-- Optional JavaScript-->
+        <!-- jQuery first, then popper.js then Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="scripts/js/bootstrap.js"></script>
+
+        <!--Font awesome Version 5-->
+        <script src="https://kit.fontawesome.com/6ac3910c4e.js" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="scripts/js/custom.js"></script>
+    </body>
+</html>
