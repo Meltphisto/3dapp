@@ -26,6 +26,7 @@
 
   <!-- JS for swap -->
   <script type="text/javascript" src='js/Swap.js'></script>
+  <script type="text/javascript" src='js/AnimationTrigger.js'></script>
   
   <!-- JS for gallery generator -->
   <script type="text/javascript" src="js/gallery_generator.js"></script>
@@ -174,15 +175,21 @@
     
               <!-- X3D model-->
                 <div class="card-body">
+                  <div id = "coke">
+                    <div id = "x3dTitle_Coke" class="card-title drinksText"></div>
+                    <!-- Here is the 3D model-->
+                    <div class="model3D">
+                      <x3d>
+                        <scene>
+                          <inline nameSpaceName="model" mapDEFToID = "true" onclick="AnimationModel();"
+                          url = "Assets/X3d/Coke_Rotate.x3d"></inline>
+                        </scene>
+                      </x3d>
+                    </div>
+                  </div>                 
                   <h4 class="card-title">Coca cola 3d model</h4>
     
-                  <div class="model3D">
-                    <x3d>
-                      <scene>
-                        <inline url="Assets/X3d/Coke.x3d"></inline>
-                      </scene>
-                    </x3d>
-                  </div>
+                  
     
                   <p class="card-text"> Here is the 3D model for the coke cola can.</p>
                   <h4>Camera views</h4>
