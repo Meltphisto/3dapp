@@ -15,8 +15,9 @@ function AnimationOff()
 
 function AnimationModel()
 {
-    if(document.getElementById('model__RotationTimer').getAttribute('enabled') != true)
-        document.getElementById('model__RotationTimer').setAttribute('enabled','true');
+    alert("1111");
+    if(document.getElementById('model__RotationTimer').getAttribute('enabled')!= 'true')
+        document.getElementById('model__RotationTimer').setAttribute('enabled', 'true');
     else
-        document.getElementById('model__RotationTimer').setAttribute('enabled','false');
+        document.getElementById('model__RotationTimer').setAttribute('enabled', 'false');
 }
