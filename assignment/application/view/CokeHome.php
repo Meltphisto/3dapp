@@ -260,17 +260,7 @@
               </div>
             </div>
     
-            <div class="col-sm-12">
-                <!-- Coca cola card -->
-                <div class="card">
-                    <div class="card-body">
-                      <div id="title_left" class="card-title homeText"></div>
-                      <div id="subTitle_left" class="card-subtitle homeText"></div>
-                      <div id="description_left" class="card-text homeText"></div>
-                      <a href="https://www.coca-cola.com/gb/en/brands/coca-cola-original-taste" class="btn btn-primary">Find out more ...</a>
-                    </div>
-                </div>
-              </div>
+            
           </div>
       </div>
   </div>
@@ -322,7 +312,7 @@
                 <div class="card-header">Gallery</div>
                 <div class="card-body">
                  <h4 class="card-title">3D Image Gallery</h4>
-                 <div class="gallery" id="gallery_coke"></div>
+                 <div class="gallery" id="gallery_sprite"></div>
                 </div>
               </div>
             </div>
@@ -351,21 +341,11 @@
                   <p class="card-text">Turn on or turn off the x3d model animation.</p>
                   <a href="#" class="btn btn-success btn-responsive camera-font" onclick="AnimationOn();">Spin</a>
                   <a href="#" class="btn btn-secondary btn-responsive camera-font" onclick="AnimationOff();">Stop</a>
-                </div></div>
+                </div>
+                </div>
               </div>
             </div>
     
-            <div class="col-sm-12">
-                <!-- Coca cola card -->
-                <div class="card">
-                  <div class="card-body">
-                    <div id="title_centre" class="card-title homeText"></div>
-                    <div id="subTitle_centre" class="card-subtitle homeText"></div>
-                    <div id="description_centre" class="card-text homeText"></div>
-                    <a href="https://www.coca-cola.com/gb/en/brands/sprite" class="btn btn-primary">Find out more ...</a>
-                  </div>
-                </div>
-            </div>
           </div>
       </div>
   </div>
@@ -417,7 +397,7 @@
                 <div class="card-header">Gallery</div>
                 <div class="card-body">
                  <h4 class="card-title">3D Image Gallery</h4>
-                 <div class="gallery" id="gallery_coke"></div>
+                 <div class="gallery" id="gallery_pepper"></div>
                 </div>
               </div>
             </div>
@@ -458,17 +438,7 @@
               </div>
             </div>
     
-            <div class="col-sm-12">
-                <!-- Coca cola card -->
-                <div class="card">
-                  <div class="card-body">
-                    <div id="title_centre" class="card-title homeText"></div>
-                    <div id="subTitle_centre" class="card-subtitle homeText"></div>
-                    <div id="description_centre" class="card-text homeText"></div>
-                    <a href="https://www.coca-cola.com/gb/en/brands/sprite" class="btn btn-primary">Find out more ...</a>
-                  </div>
-                </div>
-            </div>
+            
           </div> 
       </div>
   </div>
